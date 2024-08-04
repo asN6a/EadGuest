@@ -1,0 +1,45 @@
+[gd_scene load_steps=4 format=3 uid="uid://d20lhaihx1h5i"]
+
+[ext_resource type="Script" path="res://scripts/UI/EadGuest_MainUI.gd" id="1_dt0o5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1v132"]
+bg_color = Color(0.0475577, 0.0475577, 0.0475576, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_otsy3"]
+font_size = 22
+font_color = Color(0.825856, 0.411536, 0, 1)
+
+[node name="EadQuest_MainUI" type="Panel"]
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 245.0
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_1v132")
+script = ExtResource("1_dt0o5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 8.0
+offset_right = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 30
+
+[node name="Core" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="NAME" type="Label" parent="VBoxContainer/Core"]
+layout_mode = 2
+text = "NAME"
+label_settings = SubResource("LabelSettings_otsy3")
+
+[node name="QUEST" type="Label" parent="VBoxContainer/Core"]
+layout_mode = 2
+text = "test"
+autowrap_mode = 3
+
+[node name="ResponseButtons" type="VBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
