@@ -44,5 +44,6 @@ func EducarQuest_controller():
 func _on_answer_pressed_custom(question_index: int, answer_index: int, correct_index: int) -> void:
 	if answer_index == correct_index:
 		print("Resposta correta!")
+		hide()
 	else:
 		print("Resposta incorreta!")
