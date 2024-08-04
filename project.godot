@@ -10,14 +10,14 @@ config_version=5
 
 [application]
 
-config/name="EducarQuest"
-run/main_scene="res://assets/UI/EadQuest_MainUI.tscn"
+config/name="EadGuest"
+run/main_scene="res://addons/EadGuest/assets/UI/EadQuest_MainUI.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/EducarQuest/plugin.cfg")
+enabled=PackedStringArray("res://addons/EadGuest/plugin.cfg")
 
 [rendering]
 
