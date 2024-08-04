@@ -10,6 +10,8 @@ Aperte Ctrl+Shift+A
 Pesquise por EadGuest_MainUI
 Aperte em Abrir ou Enter no teclado.
 
+# Screenshots
+
 ![image](https://github.com/user-attachments/assets/d863db07-5ab5-4a0b-9eae-96303d53664d)
 
 ![image](https://github.com/user-attachments/assets/5358e4f3-1855-4034-bffb-c32bda6abcab)
